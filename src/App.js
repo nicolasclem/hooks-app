@@ -9,6 +9,11 @@ import FocusScreen from "./components/Hooks/FocusScreen/FocusScreen";
 import RealUseRef from "./components/Hooks/RealUseRef/RealUseRef";
 import LayoutEffect from "./components/Hooks/LayoutEffect/LayoutEffect";
 import Memorize from "./components/Hooks/Memos/Memorize";
+import MemoHook from "./components/Hooks/Memos/MemoHook";
+import CallBackHook from "./components/Hooks/Memos/CallBackHook";
+
+
+
 
 function App() {
   return (
@@ -42,6 +47,14 @@ function App() {
       <hr/>
       <hr/>
       <Memorize />
+      <hr/>
+      <hr/>
+      <hr/>
+      <MemoHook />
+      <hr/>
+      <hr/>
+      <hr/>
+      <CallBackHook />
 
 
 
