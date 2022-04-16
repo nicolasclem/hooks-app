@@ -3,9 +3,12 @@ import { useEffect, useState } from "react"
 
 export const UseFetch = (url) => {
 
-
+ 
     const [state, setState] = useState({data:null,loading:true,error:null})
 
+
+
+     
 useEffect(() => {
    
     setState({data:null,loading:true,error:null})
@@ -14,12 +17,12 @@ useEffect(() => {
         .then(res=>res.json())
         .then(data=>{
 
-            setState (
-                {
-                    loading: false,
-                    error:null,
-                    data
-                })
+                setState (
+                    {
+                        loading: false,
+                        error:null,
+                        data
+                    })
            
         })
   
